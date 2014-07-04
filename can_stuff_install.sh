@@ -71,7 +71,7 @@ update_icsim()
 first_install()
 {
   # dependancies
-  apt-get install -y libsdl2-2.0-0 libsdl2-dev libsdl2-image-2.0-0 libsdl2-image-dev git make gcc unzip
+  apt-get install -y libsdl2-2.0-0 libsdl2-dev libsdl2-image-2.0-0 libsdl2-image-dev git make gcc
   sleep 1
 
   install_icsim
