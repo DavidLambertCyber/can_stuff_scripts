@@ -99,7 +99,7 @@ usage()
   echo ''
   echo '  Cannot use -s and -r at same time.'
   echo ''
-  echo '    -r  random'
+  echo '    -r  icsim random seed'
   echo '    -h  this help'
   echo '    -l  controls difficulty level. 0-2 (default: 1)'
   echo '    -s  seed value used in controls and icsim'
