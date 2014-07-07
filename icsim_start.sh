@@ -59,7 +59,7 @@ start_normal()
   (cd $ICSIMDIR && sudo ./controls vcan0 &)
   sleep 2
   (cd $ICSIMDIR && sudo ./icsim vcan0 &)
-  sleep 2
+  sleep 1
 }
 
 start_seed()
@@ -70,7 +70,7 @@ start_seed()
   (cd $ICSIMDIR && sudo ./controls -s $RANSEED vcan0 &)
   sleep 2
   (cd $ICSIMDIR && sudo ./icsim -s $RANSEED vcan0 &)
-  sleep 2
+  sleep 1
 }
 
 start_seed_level()
@@ -80,7 +80,7 @@ start_seed_level()
   (cd $ICSIMDIR && sudo ./controls -s $RANSEED -l $LEVEL vcan0 &)
   sleep 2
   (cd $ICSIMDIR && sudo ./icsim -s $RANSEED vcan0 &)
-  sleep 2
+  sleep 1
 }
 
 log_seeds()
