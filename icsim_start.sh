@@ -108,6 +108,8 @@ usage()
   echo '    will log all seeds used, you can turn this off.'
   echo '    by editing this script (LOGSEEDS=false).'
   echo ''
+  echo '  The controls window must be front/selected for hotkeys to work.'
+  echo ''
   echo '  This script must be run as root (sudo su).'
   echo ''
   exit 1

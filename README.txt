@@ -48,6 +48,8 @@ Usage: icsim_start.sh [-hr] [-s <seed>] [-l <level>]
     will log all seeds used, you can turn this off.
     by editing this script (LOGSEEDS=false).
 
+  The controls window must be front/selected for hotkeys to work.
+
   This script must be run as root (sudo su).
 
 =======================================================================================
